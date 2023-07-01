@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+}
+header {
+  height: 40px;
+  background-color: skyblue;
+  padding: 20px 0px;
+}
+
+header,
+nav,
+ul {
+  list-style-type: none;
+}
+nav,
+ul,
+li {
+  display: inline-block;
+  text-align: left;
+}
+ul,
+li,
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  margin-right: 20px;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+.contact {
+  padding: 70px 0px;
+  background-color: gray;
+  width: 100vw;
+  height: 50vh;
+}
+.contact h2 {
+  text-align: center;
+  font-size: 35px;
+  font-family: sans-serif;
+  font-weight: 700;
+  padding-top: 70px;
+  text-decoration: underline;
+}
